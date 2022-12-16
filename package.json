@@ -1,0 +1,24 @@
+{
+  "name": "symfonylolcito",
+  "version": "1.0.0",
+  "description": "CORRER:\r docker-compose up -d\r docker-compose exec db mysql -uroot -padmin",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkoAyala/symfonylolcito.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkoAyala/symfonylolcito/issues"
+  },
+  "homepage": "https://github.com/MarkoAyala/symfonylolcito#readme"
+}

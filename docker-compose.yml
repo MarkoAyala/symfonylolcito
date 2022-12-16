@@ -6,10 +6,14 @@
       volumes:
         - './:/app'
       working_dir: /app
+
     webserver:
       ports:
-        - '3005:80'
+        - '8000:80'
       image: nginx:1.22.0
+      volumes:
+        - ./nginx/conf.d/:/etc/nginx/conf.d/
+
     db:
       image: mysql:5.7
       environment:
@@ -19,6 +23,7 @@
         - '3306:3306'
       volumes:
         - "symfony-data:/var/lib/mysql"
+
   volumes:
     symfony-data:
 
